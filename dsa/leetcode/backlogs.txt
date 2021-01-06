@@ -1,0 +1,8 @@
+https://leetcode.com/problems/number-of-islands-ii/
+https://leetcode.com/problems/h-index-ii/
+https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
+https://leetcode.com/discuss/general-discussion/665604/Important-and-Useful-links-from-all-over-the-LeetCode
+https://leetcode.com/discuss/general-discussion/448285/List-of-questions-sorted-by-common-patterns
+https://leetcode.com/discuss/general-discussion/657507/sliding-window-for-beginners-problems-template-sample-solutions/
+https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/
