@@ -2,6 +2,4 @@
     "files.associations": {
         "iostream": "cpp"
     },
-    "C_Cpp.intelliSenseEngine": "Disabled",
-    "C_Cpp.autocomplete": "Disabled",
 }
