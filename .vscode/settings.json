@@ -12,6 +12,8 @@
         "limits": "cpp",
         "numeric": "cpp",
         "utility": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "iomanip": "cpp"
     },
+    "C_Cpp.autocomplete": "Disabled"
 }
