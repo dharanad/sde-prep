@@ -22,6 +22,7 @@ int bs(vector<pi> &ar, int lo, int hi, int start){
     }
     return (ar[lo].second <= start) ? lo + 1 : 0;
 }
+// count no of subsets
 int main(){
     fast
     int n;
@@ -31,12 +32,14 @@ int main(){
             cin >> act[i].first >> act[i].second;
         }
         sort(act.begin(), act.end(), cmp);
-        vector<ll> dp(n + 5, 0);
-        dp[1] = 1;
+        // intialized to 1 coz, each element can individually be sub set
+        vector<ll> dp(n + 5, 1); 
         for(int i = 2; i <= n; i++){
             int start = act[i-1].first;
-            dp[i] = (1 + dp[i-1]) % mod;
+            // number of subsets by not select ith activity
+            dp[i] = (dp[i] + dp[i-1]) % mod;
             int pos = bs(act, 0, n-1, start);
+            // number of subsets by selecting ith activity
             if(pos != 0)
                 dp[i] = (dp[i] + dp[pos])%mod;
         }
