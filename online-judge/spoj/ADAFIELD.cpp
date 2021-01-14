@@ -3,10 +3,7 @@
 #include <algorithm>
 #include <set>
 using namespace std;
-#define fast                    \
-    cin.sync_with_stdio(false); \
-    cin.tie(NULL);              \
-    cout.tie(NULL);
+#define fast cin.sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 typedef long long ll;
 typedef pair<int, int> pi;
 typedef pair<int, pi> ppi;
