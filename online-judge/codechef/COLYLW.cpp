@@ -3,8 +3,11 @@
 using namespace std;
 typedef long long ll;
 
-bool good(ll col, ll r, ll g, ll b){
-    return (r>=col && b>=col && (r+g+b)>=3*col);
+// we check that can we make x col st they contain r and b
+// that me we should have r >= x and b >= x and (r+g+b) >= 3*x
+
+bool good(ll x, ll r, ll g, ll b){
+    return (r>=x && b>=x && (r+g+b)>=3*x);
 }
 
 int main(){
