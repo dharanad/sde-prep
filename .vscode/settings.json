@@ -13,7 +13,8 @@
         "numeric": "cpp",
         "utility": "cpp",
         "string": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "deque": "cpp"
     },
     "C_Cpp.autocomplete": "Disabled"
 }
