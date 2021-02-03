@@ -37,7 +37,7 @@ int main(){
         }
         for(int i = 1; i <= row; i++){
             for(int j = 1; j <= col; j++){
-                dp[i][j] = ar[i-1][j-1] + max(dp[i-1][j-1], dp[i-1][j], dp[i-1][j+1]);
+                dp[i][j] = ar[i-1][j-1] + _max(dp[i-1][j-1], dp[i-1][j], dp[i-1][j+1]);
             }
         }
         int res = dp[row][1];

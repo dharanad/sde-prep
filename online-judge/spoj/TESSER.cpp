@@ -6,7 +6,7 @@
 using namespace std;
 
 string get_text(vector<int> &ar, int n){
-    string res(n-1);
+    string res(n-1, 'X');
     for(int i = 1; i < n; i++){
         char r;
         if(ar[i] > ar[i-1]){
